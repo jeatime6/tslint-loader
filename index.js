@@ -36,7 +36,7 @@ function resolveOptions(webpackInstance) {
     options.tsConfigFile = options.tsConfigFile || 'tsconfig.json';
     options.fix = options.fix || false;
     // add canEmit option
-    options.canEmit = options.canEmit || true;
+    options.canEmit = options.canEmit || false;
 
     return options;
 }
